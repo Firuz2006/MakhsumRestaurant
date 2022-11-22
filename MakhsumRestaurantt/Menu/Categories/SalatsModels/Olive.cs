@@ -1,6 +1,8 @@
-﻿namespace MakhsumRestaurantt.Menu.Categories.SalatsModels;
+﻿using MakhsumRestaurantt.Abstractions;
 
-public class Olive:ISalats
+namespace MakhsumRestaurantt.Menu.Categories.SalatsModels;
+
+public class Olive:MenuItem , ISalats
 {
     
 }
